@@ -1,0 +1,17 @@
+{
+    "contents" : "library(shiny)\nlibrary(leaflet)\n\nlibrary(markdown)\n\nshinyUI(\n      navbarPage(\" Developing Data Products: Course Project\",\n                 tabPanel(\"Main Panel\",\n                          sidebarLayout(\n                                sidebarPanel(\n                                      h3('Control Panel'),\n                                      selectInput('city', 'City', c('Reus', 'Paris', 'London')),\n                                      selectInput('element', 'Element', c('Temperature', 'Pressure', 'Humidity')),\n                                      checkboxInput('regression', 'Regression'),\n                                      h3('City location'),\n                                      leafletOutput(\"mymap\")\n                                      \n                                ),\n                                \n                                \n                                mainPanel(\n                                      h3('5 day Forecast'),\n                                      plotOutput('newFigure'),\n                                      HTML(\"<br><br><h4>Warning</h4><p>This figure obtains its data (in XML format) from the <a href='http://openweathermap.org/forecast5'>OpenWeatherMap web</a> thus it depends on its proper functioning. Please, feel free to use the Help page on top of the page for more information.</p>\")                                \n\n                                )                            )),\n                          \n                 tabPanel(\"HELP !\",\n                          includeHTML(\"include.html\")\n                          )\n      )\n)",
+    "created" : 1443262966193.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4017445034",
+    "id" : "2F3D6071",
+    "lastKnownWriteTime" : 1443114430,
+    "path" : "~/CourseProject9/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

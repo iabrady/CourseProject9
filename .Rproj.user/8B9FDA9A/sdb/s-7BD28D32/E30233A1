@@ -1,0 +1,17 @@
+{
+    "contents" : "<html>\n\n<head>\n<title>HElp page</title>\n<style>\nimg.right {\n    float: right;\n    border: 1px dotted black;\n    margin: 0px 0px 15px 20px;\n}\nimg.left {\n    float: left;\n    border: 1px dotted black;\n    margin: 0px 20px 0px 0px;\n}\n\n</style>\n</head>\n\n<body>\n<h3>Introduction</h3>\n<p> <img class='right' src='http://www.xtec.cat/ceip-alberich/images/vermut-reus.jpg' alt='Reus vermouth'> As a result of my love to my city, I decided to make some application related with the <a href='https://en.wikipedia.org/wiki/Reus'>'Reus, Paris, London' phrase</a>. This concept comes from the eighteenth century, when our liquor production was so important that we decided, along with Paris and London, its world price. Now we just make the best vermouth of the world ! ;)</p>\n\n<p>With that in mind I made a 5 day forecast application of the 3 cities. Its functioning is based on obtaining realtime forecast data of temperature, pressure and humidity from the <a href='http://openweathermap.org/forecast5'>OpenWeatherMap web</a>. Among other things this web offers forecast data with an interval of 3 hours of the main cities of the world <b>in real time</b>. We take this info on demand <a href='https://en.wikipedia.org/wiki/XML'>in XML format</a>. This way the forecast is always up to date.</p>\n\n<h3>Instructions</h3>\n<p><img class='left'src='http://www.xtec.cat/ceip-alberich/images/controlpanel.png' alt='Control panel' height=117 width=148>On the control panel, choose which <b>city</b> as well as which <b>parameter</b> (temperature, time, or humidity) do you want to consult. Moreover, there is a checkbox that allows to <b>visualize the linear regression</b> of the parameter chosen in the graph.</p>\n\n<p>Finally, there is also a map below the control panel that shows the city location automatically.</p>\n</body>\n</html>\n",
+    "created" : 1443265510158.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2854463255",
+    "id" : "E30233A1",
+    "lastKnownWriteTime" : 1443266473,
+    "path" : "~/CourseProject9/include.html",
+    "project_path" : "include.html",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "html"
+}
